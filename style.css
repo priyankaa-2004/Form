@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    color: black;
+    padding:20px;
+    margin:2px;
+    
+}
+.bleh{
+    background-color: rgb(212, 226, 242);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+input[type="text"], input[type="number"], input[type="address"], input[type="email"], input[type="date"], input[type="password"],
+select, textarea{
+    width:100%;
+    padding:12px;
+    border:20px;
+    border-radius: 5px;
+}
+input[type="submit"]{
+    background-color: green;
+    color:rgb(182, 229, 182);
+    padding: 15px 25px;
+    cursor: pointer;
+    border:none;
+    border-radius: 2px;
+    width:100%;
+}
+input[type="submit"]:hover
+{
+    color:green;
+     background-color: rgb(130, 223, 130);
+}
